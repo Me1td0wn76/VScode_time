@@ -3,6 +3,13 @@ bin/
 obj/
 out/
 
+# パブリッシュ出力（自己完結型実行ファイル）
+publish/
+publish_new/
+publish_v2_improved/
+publish_v2_fixed/
+publish_v2_final/
+
 # Visual Studio / Visual Studio Code
 .vscode/
 .vs/
