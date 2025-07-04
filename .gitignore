@@ -1,0 +1,59 @@
+# .NET Core ビルド出力
+bin/
+obj/
+out/
+
+# Visual Studio / Visual Studio Code
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ログファイル（個人の使用時間データ）
+log/
+*.log
+*.json
+
+# 一時ファイル
+*.tmp
+*.temp
+*~
+
+# OS固有ファイル
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# NuGet パッケージ
+*.nupkg
+packages/
+.nuget/
+
+# 実行ファイル
+*.exe
+*.dll
+*.pdb
+
+# 設定ファイル（個人設定を含む可能性）
+appsettings.local.json
+appsettings.development.json
+config.json
+
+# IDE設定
+*.swp
+*.swo
+*~
+
+# パフォーマンス・テストファイル
+BenchmarkDotNet.Artifacts/
+
+# リリース設定ファイル
+publish/
+*.pubxml
+*.publishproj
+
+# エラーログ
+error.log
+debug.log
